@@ -14,7 +14,7 @@ Harianto | Nusa Cendekia Research | hari@nusacendekia.com
 
 ## Abstrak
 
-Integrasi API multi-partner sering menghadapi kendala perbedaan struktur payload, format data, dan aturan validasi pada setiap partner. Kondisi ini menyebabkan proses mapping dilakukan secara hard-coded sehingga meningkatkan waktu pengembangan, kesalahan payload, dan effort maintenance. Penelitian ini bertujuan merancang dan mengevaluasi message mapper dinamis berbasis konfigurasi untuk mendukung integrasi REST API multi-partner pada domain logistik. Metode penelitian menggunakan *Design Science Research Methodology* (DSRM) melalui tahapan identifikasi masalah, perancangan artefak, implementasi prototipe, demonstrasi, dan evaluasi. Sistem yang dikembangkan memiliki fitur konfigurasi field mapping, transformasi data, validasi skema, partner adapter, serta logging request dan response. Evaluasi dilakukan dengan membandingkan pendekatan hard-coded mapping dan dynamic message mapper pada empat skenario pengujian (S1–S4) menggunakan 100–500 payload transaksi dan melibatkan lima partner simulasi. Pengujian statistik menggunakan uji normalitas Shapiro-Wilk dilanjutkan uji paired t-test atau Wilcoxon signed-rank. Hasil pengujian menunjukkan bahwa dynamic message mapper mampu mempertahankan success rate 92–95,4%, setara dengan baseline hard-coded pada 14 dari 16 kombinasi skenario-partner, memiliki akurasi mapping 100%, dan meminimalkan perubahan source code saat penambahan partner baru hanya melalui konfigurasi JSON. Dengan demikian, message mapper dinamis dapat menjadi alternatif ringan dan terukur untuk meningkatkan efisiensi integrasi REST API multi-partner.
+Integrasi API multi-partner sering menghadapi kendala perbedaan struktur payload, format data, dan aturan validasi pada setiap partner. Kondisi ini menyebabkan proses mapping dilakukan secara hard-coded sehingga meningkatkan waktu pengembangan, kesalahan payload, dan effort maintenance. Penelitian ini bertujuan merancang dan mengevaluasi message mapper dinamis berbasis konfigurasi untuk mendukung integrasi REST API multi-partner pada domain logistik. Metode penelitian menggunakan *Design Science Research Methodology* (DSRM) melalui tahapan identifikasi masalah, perancangan artefak, implementasi prototipe, demonstrasi, dan evaluasi. Sistem yang dikembangkan memiliki fitur konfigurasi field mapping, transformasi data, validasi skema, partner adapter, serta logging request dan response. Evaluasi dilakukan dengan membandingkan pendekatan hard-coded mapping dan dynamic message mapper pada empat skenario pengujian (S1–S4) menggunakan 100–500 payload transaksi dan melibatkan lima partner simulasi. Pengujian statistik menggunakan uji normalitas Shapiro-Wilk dilanjutkan uji paired t-test atau Wilcoxon signed-rank. Hasil pengujian menunjukkan bahwa dynamic message mapper mampu mempertahankan success rate 92–95,4%, setara dengan baseline hard-coded pada 14 dari 16 kombinasi skenario-partner, memiliki akurasi mapping 100%, dan meminimalkan perubahan source code saat penambahan partner baru hanya melalui konfigurasi JSON. Perlu dicatat bahwa seluruh partner yang digunakan dalam evaluasi ini adalah partner simulasi yang direkayasa secara sengaja, bukan partner produksi nyata, sehingga generalisasi ke lingkungan produksi memerlukan validasi lebih lanjut. Dengan demikian, message mapper dinamis dapat menjadi alternatif ringan dan terukur untuk meningkatkan efisiensi integrasi REST API multi-partner.
 
 **Kata Kunci:** message mapper; dynamic mapping; REST API integration; configuration-based; enterprise application integration; design science research
 
@@ -383,9 +383,9 @@ Desain injeksi error ini memungkinkan eksperimen yang reproduksibel dan determin
 
 | Metrik | Rumus / Cara Ukur | Target |
 |---|---|---|
-| Payload success rate | (payload valid / total) × 100% | ≥ 95% |
-| Mapping accuracy | field benar / total field × 100% | ≥ 95% |
-| Error detection rate | error terdeteksi sebelum kirim / total error × 100% | meningkat |
+| Payload success rate | (payload valid / total) × 100% | Setara dengan baseline; payload valid terklasifikasi benar sebagai sukses, payload error terklasifikasi benar sebagai gagal |
+| Mapping accuracy | field benar / total field × 100% | ≥ 95% untuk payload valid |
+| Error detection rate | error terdeteksi sebelum kirim / total error × 100% | ≥ baseline; lebih tinggi pada partner dengan validasi format |
 | Transformation latency (ms) | perf_counter() difference per payload | tetap rendah |
 | Maintainability | langkah teknis untuk tambah partner baru | dynamic jauh lebih rendah |
 | Lines of code changed | jumlah LOC yang berubah saat tambah partner | 0 pada dynamic |
@@ -584,7 +584,7 @@ Gambar 10 memvisualisasikan rasio overhead (dynamic/baseline) setiap kombinasi s
 | Ubah format tanggal | Ubah implementasi fungsi | Ganti nilai `transform` di JSON |
 | Debug payload error | Log manual + tracing kode | Lihat `transform_logs` via dashboard |
 | Jumlah file berubah (5 partner) | 5+ file Python | 0 file Python (hanya konfigurasi DB) |
-| Estimasi waktu onboarding per partner | 45–95 menit | 18–40 menit |
+| Estimasi effort onboarding per partner | 45–95 menit (tulis kode + unit test) | 18–40 menit (isi konfigurasi JSON) |
 
 ### 4.4 Hasil Uji Statistik
 
@@ -667,7 +667,7 @@ Berikut adalah identifikasi ancaman (*threats to validity*) yang dapat memengaru
 1. Partner yang digunakan adalah partner simulasi, bukan partner produksi sesungguhnya.
 2. Pengujian tidak mencakup skenario high-concurrency atau beban jaringan eksternal.
 3. Aspek keamanan dibatasi pada level API key sederhana, belum mencakup OAuth 2.0 atau mTLS.
-4. Estimasi waktu onboarding bersifat perkiraan berdasarkan kompleksitas kode, bukan observasi empiris dari developer nyata.
+4. Estimasi effort onboarding bersifat perkiraan berdasarkan kompleksitas langkah teknis, bukan observasi empiris dari developer nyata.
 
 ### 5.5 Saran Penelitian Lanjut
 
