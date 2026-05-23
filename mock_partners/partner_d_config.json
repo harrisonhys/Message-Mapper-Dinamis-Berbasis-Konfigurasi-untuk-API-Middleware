@@ -1,0 +1,75 @@
+{
+  "partner": "partner_d",
+  "partner_name": "Partner D — Format tanggal dd/mm/yyyy & phone +62",
+  "base_url": "http://localhost:9004",
+  "endpoint": "/logistics/pickup-request",
+  "method": "POST",
+  "description": "Partner D menggunakan format tanggal dd/mm/yyyy dan nomor telepon dengan prefix +62.",
+  "mapping_rules": [
+    {
+      "source": "order_id",
+      "target": "transaction_id",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "customer_name",
+      "target": "sender_name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "customer_phone",
+      "target": "sender_phone",
+      "type": "string",
+      "required": true,
+      "transform": "normalize_phone",
+      "pattern": "^(0|62|\\+62)[0-9]{8,12}$"
+    },
+    {
+      "source": "address",
+      "target": "pickup_address",
+      "type": "string",
+      "required": true,
+      "min_length": 10,
+      "max_length": 255
+    },
+    {
+      "source": "weight",
+      "target": "weight_kg",
+      "type": "number",
+      "required": true
+    },
+    {
+      "source": "created_at",
+      "target": "pickup_date",
+      "type": "date",
+      "required": true,
+      "transform": "yyyy_mm_dd_to_dd_slash_mm_slash_yyyy"
+    },
+    {
+      "source": "item_name",
+      "target": "goods_description",
+      "type": "string",
+      "required": false
+    },
+    {
+      "source": "quantity",
+      "target": "goods_qty",
+      "type": "number",
+      "required": false
+    },
+    {
+      "source": "price",
+      "target": "goods_value",
+      "type": "number",
+      "required": false
+    },
+    {
+      "source": "notes",
+      "target": "special_instruction",
+      "type": "string",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "partner": "partner_e",
+  "partner_name": "Partner E — Nested JSON + mandatory fields + multi-transform",
+  "base_url": "http://localhost:9005",
+  "endpoint": "/v2/shipments",
+  "method": "POST",
+  "description": "Partner E kombinasi nested JSON, mandatory field ketat, dan transformasi nilai berlapis.",
+  "mapping_rules": [
+    {
+      "source": "order_id",
+      "target": "shipment.externalId",
+      "type": "string",
+      "required": true,
+      "min_length": 3,
+      "max_length": 50
+    },
+    {
+      "source": "customer_name",
+      "target": "shipment.receiver.fullName",
+      "type": "string",
+      "required": true,
+      "min_length": 3
+    },
+    {
+      "source": "customer_phone",
+      "target": "shipment.receiver.mobileNumber",
+      "type": "string",
+      "required": true,
+      "transform": "normalize_phone"
+    },
+    {
+      "source": "address",
+      "target": "shipment.receiver.addressLine",
+      "type": "string",
+      "required": true,
+      "min_length": 10
+    },
+    {
+      "source": "weight",
+      "target": "shipment.parcel.weightInGrams",
+      "type": "number",
+      "required": true,
+      "transform": "kg_to_gram"
+    },
+    {
+      "source": "created_at",
+      "target": "shipment.orderCreatedAt",
+      "type": "date",
+      "required": true,
+      "transform": "yyyy_mm_dd_to_dd_mm_yyyy"
+    },
+    {
+      "source": "item_name",
+      "target": "shipment.parcel.contentDescription",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "quantity",
+      "target": "shipment.parcel.pieces",
+      "type": "number",
+      "required": true
+    },
+    {
+      "source": "price",
+      "target": "shipment.parcel.declaredValueIDR",
+      "type": "number",
+      "required": true
+    },
+    {
+      "source": "notes",
+      "target": "shipment.receiver.deliveryInstruction",
+      "type": "string",
+      "required": false
+    }
+  ]
+}

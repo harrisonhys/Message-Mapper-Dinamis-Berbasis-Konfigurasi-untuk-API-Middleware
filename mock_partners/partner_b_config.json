@@ -1,0 +1,71 @@
+{
+  "partner": "partner_b",
+  "partner_name": "Partner B — Flat JSON camelCase",
+  "base_url": "http://localhost:9002",
+  "endpoint": "/order/submit",
+  "method": "POST",
+  "description": "Partner B menggunakan flat JSON dengan konvensi camelCase.",
+  "mapping_rules": [
+    {
+      "source": "order_id",
+      "target": "orderId",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "customer_name",
+      "target": "customerName",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "customer_phone",
+      "target": "customerPhone",
+      "type": "string",
+      "required": true,
+      "transform": "normalize_phone"
+    },
+    {
+      "source": "address",
+      "target": "deliveryAddress",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "weight",
+      "target": "weightKg",
+      "type": "number",
+      "required": true
+    },
+    {
+      "source": "created_at",
+      "target": "orderDate",
+      "type": "date",
+      "required": true
+    },
+    {
+      "source": "item_name",
+      "target": "itemName",
+      "type": "string",
+      "required": false
+    },
+    {
+      "source": "quantity",
+      "target": "itemQuantity",
+      "type": "number",
+      "required": false
+    },
+    {
+      "source": "price",
+      "target": "totalAmount",
+      "type": "number",
+      "required": false
+    },
+    {
+      "source": "notes",
+      "target": "specialNotes",
+      "type": "string",
+      "required": false
+    }
+  ]
+}
