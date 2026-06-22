@@ -1,0 +1,27 @@
+{
+  "hardcoded": {
+    "approach": "Hard-coded Python",
+    "total_loc": 113,
+    "loc_per_new_partner": 40,
+    "files_to_change_per_new_partner": 1,
+    "onboarding_time_estimate_min": 45,
+    "onboarding_time_estimate_max": 95
+  },
+  "jsonata": {
+    "approach": "JSONata-style",
+    "total_loc": 147,
+    "loc_per_new_partner": 15,
+    "files_to_change_per_new_partner": 1,
+    "onboarding_time_estimate_min": 25,
+    "onboarding_time_estimate_max": 50
+  },
+  "dynamic": {
+    "approach": "Proposed Dynamic Mapper",
+    "total_loc": 242,
+    "config_loc_per_partner": 98,
+    "loc_per_new_partner": 98,
+    "files_to_change_per_new_partner": 1,
+    "onboarding_time_estimate_min": 18,
+    "onboarding_time_estimate_max": 40
+  }
+}

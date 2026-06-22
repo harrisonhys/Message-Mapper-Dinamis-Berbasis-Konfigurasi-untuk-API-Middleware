@@ -1,0 +1,95 @@
+{
+  "partner": "partner_d",
+  "partner_name": "Partner D \u2014 Date slash & phone +62",
+  "base_url": "http://localhost:9004",
+  "endpoint": "/api/courier/order",
+  "method": "POST",
+  "description": "Date dd/mm/yyyy, phone +62 format",
+  "mapping_rules": [
+    {
+      "source": "order_id",
+      "target": "transaction_id",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "customer_name",
+      "target": "sender_name",
+      "type": "string",
+      "required": true,
+      "min_length": 2
+    },
+    {
+      "source": "customer_phone",
+      "target": "sender_phone",
+      "type": "string",
+      "required": true,
+      "validate_phone": true,
+      "transform": "normalize_phone"
+    },
+    {
+      "source": "address",
+      "target": "pickup_address",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "weight",
+      "target": "weight_kg",
+      "type": "number",
+      "required": true,
+      "min_value": 0.01,
+      "max_value": 500
+    },
+    {
+      "source": "created_at",
+      "target": "pickup_date",
+      "type": "date",
+      "required": true,
+      "validate_date": true,
+      "transform": "yyyy_mm_dd_to_dd_slash_mm_slash_yyyy"
+    },
+    {
+      "source": "courier",
+      "target": "preferred_courier",
+      "type": "string",
+      "required": false,
+      "enum": [
+        "jne",
+        "pos",
+        "tiki",
+        "jnt",
+        "sicepat",
+        "anteraja",
+        "lion_parcel"
+      ]
+    },
+    {
+      "source": "item_name",
+      "target": "goods_description",
+      "type": "string",
+      "required": false
+    },
+    {
+      "source": "quantity",
+      "target": "goods_qty",
+      "type": "integer",
+      "required": false,
+      "min_value": 1,
+      "max_value": 1000
+    },
+    {
+      "source": "price",
+      "target": "goods_value",
+      "type": "number",
+      "required": false,
+      "min_value": 0
+    },
+    {
+      "source": "notes",
+      "target": "special_instruction",
+      "type": "string",
+      "required": false
+    }
+  ]
+}

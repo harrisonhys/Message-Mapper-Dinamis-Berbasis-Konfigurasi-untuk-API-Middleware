@@ -1,0 +1,7548 @@
+{
+  "scenario": "S4",
+  "partner": "partner_b",
+  "clean_payloads": 444,
+  "injected_payloads": 56,
+  "hardcoded": {
+    "approach": "baseline_hardcoded",
+    "partner": "partner_b",
+    "total": 500,
+    "success_count": 484,
+    "error_count": 16,
+    "success_rate_pct": 96.8,
+    "avg_latency_ms": 0.0006,
+    "min_latency_ms": 0.0002,
+    "max_latency_ms": 0.0014,
+    "total_latency_ms": 0.305
+  },
+  "jsonata": {
+    "approach": "jsonata_rule_based",
+    "partner": "partner_b",
+    "total": 500,
+    "success_count": 492,
+    "error_count": 8,
+    "success_rate_pct": 98.4,
+    "avg_latency_ms": 0.0063,
+    "min_latency_ms": 0.006,
+    "max_latency_ms": 0.0099,
+    "total_latency_ms": 3.1684
+  },
+  "dynamic": {
+    "approach": "dynamic_mapper",
+    "partner": "partner_b",
+    "total": 500,
+    "success_count": 452,
+    "error_count": 48,
+    "success_rate_pct": 90.4,
+    "avg_latency_ms": 0.0039,
+    "min_latency_ms": 0.0036,
+    "max_latency_ms": 0.0075,
+    "total_latency_ms": 1.9557
+  },
+  "hardcoded_raw": [
+    {
+      "is_success": true,
+      "latency_ms": 0.0014,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0009,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0004,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0008,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0008,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0008,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0008,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0008,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0008,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0008,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0008,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0008,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0012,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0009,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0003,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0002,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0009,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0003,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0003,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0009,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0008,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0002,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0002,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0003,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0008,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0008,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0008,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0006,
+      "error_count": 0
+    }
+  ],
+  "jsonata_raw": [
+    {
+      "is_success": true,
+      "latency_ms": 0.0099,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.007,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0068,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0066,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0066,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0065,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0083,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.008,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0067,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0067,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0066,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0068,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0066,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0068,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0066,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0066,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0066,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.008,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0082,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0068,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0072,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0078,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0082,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0068,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0068,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0068,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0068,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0067,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0066,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0067,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0066,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0066,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0067,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0069,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0066,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0067,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0066,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0067,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0062,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0063,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.006,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0061,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0064,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0065,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0064,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0064,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0065,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0083,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.006,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0062,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0063,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0061,
+      "error_count": 0
+    }
+  ],
+  "dynamic_raw": [
+    {
+      "is_success": false,
+      "latency_ms": 0.0054,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0046,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0052,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0048,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0049,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0052,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0049,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0042,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0042,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0042,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0042,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0041,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0044,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.004,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.004,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0042,
+      "error_count": 2
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0045,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0075,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0043,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0042,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0042,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0042,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0042,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0042,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0043,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0038,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0047,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0039,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0042,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0038,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.004,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0036,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0039,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.004,
+      "error_count": 2
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0042,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.004,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0038,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0039,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.004,
+      "error_count": 2
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.004,
+      "error_count": 1
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0038,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.004,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0039,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0038,
+      "error_count": 2
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0039,
+      "error_count": 2
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0039,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0039,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.004,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0039,
+      "error_count": 2
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0039,
+      "error_count": 2
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.004,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0038,
+      "error_count": 2
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0038,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0038,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0037,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0037,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0037,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0039,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.004,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0036,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0036,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0037,
+      "error_count": 1
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0037,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0036,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0037,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0037,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0039,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0036,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0037,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0043,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0049,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0043,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0037,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0036,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.004,
+      "error_count": 1
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0039,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0039,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.005,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0038,
+      "error_count": 1
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0041,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.004,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0039,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0038,
+      "error_count": 0
+    },
+    {
+      "is_success": true,
+      "latency_ms": 0.0037,
+      "error_count": 0
+    },
+    {
+      "is_success": false,
+      "latency_ms": 0.0037,
+      "error_count": 1
+    }
+  ]
+}

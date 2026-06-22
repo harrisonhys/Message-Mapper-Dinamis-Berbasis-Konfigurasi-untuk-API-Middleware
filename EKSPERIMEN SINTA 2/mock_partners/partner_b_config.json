@@ -1,0 +1,92 @@
+{
+  "partner": "partner_b",
+  "partner_name": "Partner B \u2014 Flat JSON camelCase",
+  "base_url": "http://localhost:9002",
+  "endpoint": "/api/v1/orders",
+  "method": "POST",
+  "description": "Flat JSON, camelCase",
+  "mapping_rules": [
+    {
+      "source": "order_id",
+      "target": "orderId",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "customer_name",
+      "target": "customerName",
+      "type": "string",
+      "required": true,
+      "min_length": 2
+    },
+    {
+      "source": "customer_phone",
+      "target": "customerPhone",
+      "type": "string",
+      "required": true,
+      "validate_phone": true,
+      "transform": "normalize_phone"
+    },
+    {
+      "source": "address",
+      "target": "deliveryAddress",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "weight",
+      "target": "weightKg",
+      "type": "number",
+      "required": true,
+      "min_value": 0.01,
+      "max_value": 1000
+    },
+    {
+      "source": "created_at",
+      "target": "orderDate",
+      "type": "date",
+      "required": true,
+      "validate_date": true
+    },
+    {
+      "source": "courier",
+      "target": "courierCode",
+      "type": "string",
+      "required": false,
+      "enum": [
+        "jne",
+        "pos",
+        "tiki",
+        "jnt",
+        "sicepat",
+        "anteraja",
+        "lion_parcel"
+      ]
+    },
+    {
+      "source": "item_name",
+      "target": "itemName",
+      "type": "string",
+      "required": false
+    },
+    {
+      "source": "quantity",
+      "target": "itemQuantity",
+      "type": "integer",
+      "required": false,
+      "min_value": 1
+    },
+    {
+      "source": "price",
+      "target": "totalAmount",
+      "type": "number",
+      "required": false
+    },
+    {
+      "source": "notes",
+      "target": "specialNotes",
+      "type": "string",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "partner": "partner_c",
+  "partner_name": "Partner C \u2014 Nested JSON",
+  "base_url": "http://localhost:9003",
+  "endpoint": "/v2/shipments",
+  "method": "POST",
+  "description": "Nested JSON, kg to gram, enum validation",
+  "mapping_rules": [
+    {
+      "source": "order_id",
+      "target": "reference_no",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "customer_name",
+      "target": "recipient.name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "customer_phone",
+      "target": "recipient.phone",
+      "type": "string",
+      "required": true,
+      "validate_phone": true,
+      "transform": "normalize_phone"
+    },
+    {
+      "source": "address",
+      "target": "recipient.address",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "weight",
+      "target": "package.weight_gram",
+      "type": "number",
+      "required": true,
+      "min_value": 0.01,
+      "transform": "kg_to_gram"
+    },
+    {
+      "source": "created_at",
+      "target": "order_date",
+      "type": "date",
+      "required": true,
+      "validate_date": true,
+      "transform": "yyyy_mm_dd_to_dd_mm_yyyy"
+    },
+    {
+      "source": "courier",
+      "target": "courier",
+      "type": "string",
+      "required": false,
+      "enum": [
+        "jne",
+        "pos",
+        "tiki",
+        "jnt",
+        "sicepat",
+        "anteraja",
+        "lion_parcel"
+      ]
+    },
+    {
+      "source": "item_name",
+      "target": "package.item_description",
+      "type": "string",
+      "required": false
+    },
+    {
+      "source": "quantity",
+      "target": "package.quantity",
+      "type": "integer",
+      "required": false,
+      "min_value": 1
+    },
+    {
+      "source": "price",
+      "target": "package.declared_value",
+      "type": "number",
+      "required": false,
+      "min_value": 0
+    },
+    {
+      "source": "notes",
+      "target": "recipient.notes",
+      "type": "string",
+      "required": false
+    }
+  ]
+}

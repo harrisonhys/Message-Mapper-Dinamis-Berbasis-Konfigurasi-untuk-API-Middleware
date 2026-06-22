@@ -1,0 +1,120 @@
+{
+  "partner": "partner_e",
+  "partner_name": "Partner E \u2014 Complex Nested + Multi-transform",
+  "base_url": "http://localhost:9005",
+  "endpoint": "/api/v3/logistics/create",
+  "method": "POST",
+  "description": "Complex nested JSON, 10 required, all 7 validations",
+  "mapping_rules": [
+    {
+      "source": "order_id",
+      "target": "shipment.externalId",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "customer_name",
+      "target": "shipment.receiver.fullName",
+      "type": "string",
+      "required": true,
+      "min_length": 2
+    },
+    {
+      "source": "customer_phone",
+      "target": "shipment.receiver.mobileNumber",
+      "type": "string",
+      "required": true,
+      "validate_phone": true,
+      "transform": "normalize_phone"
+    },
+    {
+      "source": "address",
+      "target": "shipment.receiver.addressLine",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "recipient.name",
+      "target": "shipment.sender.name",
+      "type": "string",
+      "required": false
+    },
+    {
+      "source": "recipient.address.city",
+      "target": "shipment.receiver.city",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "recipient.address.region",
+      "target": "shipment.receiver.region",
+      "type": "string",
+      "required": false
+    },
+    {
+      "source": "recipient.address.postal_code",
+      "target": "shipment.receiver.postalCode",
+      "type": "string",
+      "required": false
+    },
+    {
+      "source": "weight",
+      "target": "shipment.parcel.weightInGrams",
+      "type": "number",
+      "required": true,
+      "min_value": 0.01,
+      "max_value": 70000,
+      "transform": "kg_to_gram"
+    },
+    {
+      "source": "created_at",
+      "target": "shipment.orderCreatedAt",
+      "type": "date",
+      "required": true,
+      "validate_date": true,
+      "transform": "yyyy_mm_dd_to_dd_mm_yyyy"
+    },
+    {
+      "source": "courier",
+      "target": "shipment.courier.code",
+      "type": "string",
+      "required": true,
+      "enum": [
+        "jne",
+        "pos",
+        "tiki",
+        "jnt",
+        "sicepat",
+        "anteraja",
+        "lion_parcel"
+      ]
+    },
+    {
+      "source": "item_name",
+      "target": "shipment.parcel.contentDescription",
+      "type": "string",
+      "required": true
+    },
+    {
+      "source": "quantity",
+      "target": "shipment.parcel.pieces",
+      "type": "integer",
+      "required": true,
+      "min_value": 1,
+      "max_value": 1000
+    },
+    {
+      "source": "price",
+      "target": "shipment.parcel.declaredValueIDR",
+      "type": "number",
+      "required": false,
+      "min_value": 0
+    },
+    {
+      "source": "notes",
+      "target": "shipment.receiver.deliveryInstruction",
+      "type": "string",
+      "required": false
+    }
+  ]
+}
